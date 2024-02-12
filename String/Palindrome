@@ -1,1 +1,25 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Palindrome {
+    public static void main(String[] args) {
+        String str = "abccaba";
+        int start = 0;
 
+        int end = str.length()-1;
+        boolean flag = true;
+        while(flag==true && end >start ){
+            if(str.charAt(start)==(str.charAt(end))){
+                start++;
+                end--;
+            }else{
+                flag = false;
+            }
+
+        }
+        if(flag){
+            System.out.println("YES");
+        }else{
+            System.out.println("NO");
+        }
+    }
+}
