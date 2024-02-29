@@ -8,7 +8,7 @@ public class Factors {
                 System.out.print(i + " ");
             }
         }
-    }
+    } 
     static void factor2(int n){
         for(int i=1;i<=Math.sqrt(n);i++){
             if(n%i==0){
