@@ -4,7 +4,7 @@ public class LCM {
     }
     static int hcf(int a,int b){
         if(a==0){
-            return b;
+            return b; 
         }
         return hcf(b%a,a);
     }
