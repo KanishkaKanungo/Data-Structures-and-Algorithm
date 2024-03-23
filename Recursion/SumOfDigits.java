@@ -3,7 +3,7 @@ public class SumOfDigits {
         System.out.println(sum(1342));
     }
     static int sum(int n){
-        if(n<=1){
+        if(n<=0){
             return n;
         }
         int a = n%10;
