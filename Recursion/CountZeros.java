@@ -7,7 +7,7 @@ public class CountZeros {
         int rem = n%10;
         if(rem==0){
             count = count + 1;
-        }
+        } 
          count(n/10);
     }
     static int count2(int n,int counter){
