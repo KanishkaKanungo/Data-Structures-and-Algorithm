@@ -7,6 +7,6 @@ public class Factorial {
             return n;
         }
         return factorial(n-1)*n;
-
+  
     }
 }
