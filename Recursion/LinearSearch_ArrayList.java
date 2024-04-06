@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class LinearSearch_ArrayList {
     public static void main(String[] args) {
         int[] arr = {1,2,3,5,6,6};
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();  
         System.out.println(search1(arr,6,0));
     }
     static ArrayList<Integer> search(int[] arr,int target,int i,ArrayList<Integer> list){
