@@ -9,3 +9,4 @@ public class HCFOrGCD{
     return check(b%a,a);
   }
 }
+ 
